@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drag&Drop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>  
+    <!-- <h1 draggable="true">Titulo</h1>
+    <a draggable="false" href="#">enlace</a> -->
+    <!-- <img id="imagen1" draggable="true" ondragstart="miOnDragStart(event)" src="https://source.unsplash.com/random/200x200" alt="asdf"> -->
+    <!-- <img draggable="true" ondragover="onDragOver()" src="https://source.unsplash.com/random/200x200" alt="asdf"> -->
+    <h1>Reproductor Hiper Chulo</h1>
+    <form id="buscador">
+        <input type="text" name="busqueda" id="busqueda">
+        <input type="submit" value="Buscar">
+    </form>
+
+    <div id="containerGrid">
+            <div id="trackList"></div>
+            <div id="contenedor" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+            </div>
+            
+    </div>
+    
+
+    
+
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.0.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

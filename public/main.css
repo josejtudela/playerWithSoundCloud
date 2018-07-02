@@ -1,0 +1,36 @@
+*{
+    box-sizing:content-box;
+}
+
+#containerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+#contenedor{
+    width: 35vw;
+    height: 35vh;
+    border-radius: 10px;
+    border: 5px dashed gray;
+    padding: 20px;
+    background-color: #eeeeee
+}
+
+.track{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#trackList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 35vw;
+}
+
+#stateTrack{
+    display: block;
+}
